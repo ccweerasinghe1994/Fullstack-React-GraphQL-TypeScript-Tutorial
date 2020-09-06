@@ -1,20 +1,23 @@
 import {MikroORM} from '@mikro-orm/core';
-import {Post} from "./entities/POST";
+
 import microConfig from './mikro-orm.config';
+import express from 'express';
+import {ApolloServer} from 'apollo-server-express';
+import {buildSchema} from 'type-graphql';
 
 const main = async () => {
     const orm = await MikroORM.init(microConfig);
-
     await orm.getMigrator().up();
 
-    // const post = orm.em.create(Post, {
-    //     title: "my first post"
-    // })
-    //
-    //  await orm.em.persistAndFlush(post);
+    const app = express();
+    const apolloServer = new ApolloServer({
+        resolvers: []
+    })
+    app.listen(400, () => {
+        console.log('server started on port 4000')
+    })
 
-    const posts = await orm.em.find(Post,{});
-    console.log(posts)
+
 }
 main().catch((error) => {
     console.error(error)
