@@ -11,10 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd5ca92c-1c7d-42ad-8fd8-4c79fc63cce2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/POST.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/migrations/Migration20200906040656.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mikro-orm.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599324807971</updated>
-      <workItem from="1599324809615" duration="1937000" />
+      <workItem from="1599324809615" duration="10703000" />
     </task>
     <servers />
   </component>
@@ -105,21 +109,21 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1599326884470">
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1599365208524">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1366.169.1366.728@0.0.1920.1160" timestamp="1599326884470" />
-    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1599326884469">
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1366.169.1366.728@0.0.1920.1160" timestamp="1599365208524" />
+    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1599365208524">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1920.1160/-1366.169.1366.728@0.0.1920.1160" timestamp="1599326884469" />
-    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1599326884469">
+    <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1920.1160/-1366.169.1366.728@0.0.1920.1160" timestamp="1599365208524" />
+    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1599365208524">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1920.1160/-1366.169.1366.728@0.0.1920.1160" timestamp="1599326884469" />
-    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1599326884470">
+    <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1920.1160/-1366.169.1366.728@0.0.1920.1160" timestamp="1599365208524" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1599365208524">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1160/-1366.169.1366.728@0.0.1920.1160" timestamp="1599326884470" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1160/-1366.169.1366.728@0.0.1920.1160" timestamp="1599365208524" />
   </component>
 </project>
